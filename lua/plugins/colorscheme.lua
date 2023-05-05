@@ -1,9 +1,10 @@
 return {
-  { "catppuccin/nvim", name = "catppuccin" },
+  { "EdenEast/nightfox.nvim"},
+  { "Mofiqul/dracula.nvim"  },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-macchiato",
+      colorscheme = "dracula",
     },
   },
 }
