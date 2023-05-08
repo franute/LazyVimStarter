@@ -1,6 +1,6 @@
 return {
-  { "catppuccin/nvim", name = "catppuccin" },
-  { "EdenEast/nightfox.nvim"},
+  { "catppuccin/nvim", lazy = true, name = "catppuccin" },
+  { "EdenEast/nightfox.nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
